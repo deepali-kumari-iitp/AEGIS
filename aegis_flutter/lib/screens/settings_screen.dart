@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class ResourceFeedScreen extends StatelessWidget {
-  const ResourceFeedScreen({super.key});
+class SettingsScreen extends StatelessWidget {
+  const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Resources"),
+        title: const Text("Settings"),
       ),
       body: const Center(
         child: Text(
-          "Resource Sharing\n(Coming Soon)",
+          "Settings\n(Coming Soon)",
           textAlign: TextAlign.center,
         ),
       ),
